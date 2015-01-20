@@ -1,2 +1,2 @@
 # N-Woodard-site
-A repository for class!
+A repository for CSET 3100
