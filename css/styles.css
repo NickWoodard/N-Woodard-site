@@ -1,0 +1,60 @@
+html {
+background: linear-gradient(rgba(0, 0, 4, .4), rgba(0, 0, 4, .4));
+background-size: 100% auto;
+background-repeat: repeat;
+}
+
+body {
+font-family: calibi, sans-serif;
+}
+
+h1{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+h2 {
+text-align: center;
+margin-top: 5%;
+color: #FFF}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+
+.myself {
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.hobbies {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.skills-list{
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%
+}
+
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
