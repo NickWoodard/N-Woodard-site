@@ -1,13 +1,140 @@
+/* Global Styles */
+/* BG colors and font choices. */
 html {
 background: linear-gradient(rgba(0, 0, 4, .4), rgba(0, 0, 4, .4));
 background-size: 100% auto;
 background-repeat: repeat;
+background-color: #19356C;
 }
 
 body {
 font-family: calibi, sans-serif;
 }
 
+/* Tiny screens */
+@media only screen and (min-width: 200px)
+{
+h1{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+h2 {
+text-align: center;
+margin-top: 5%;
+color: #FFF}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+
+.myself {
+text-align: center;
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 2em;
+color: #FFF;
+font-size: 1em;
+}
+
+.hobbies {
+text-align: center;
+margin-top: 3%;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 2em;
+color: #FFF;
+font-size: 1em;
+}
+
+.skills-list{
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 7%;
+padding-right: 7%;
+}
+
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
+}
+
+/* Phone Screens */
+@media only screen and (min-width : 480px)
+{
+h1{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+h2 {
+text-align: center;
+margin-top: 5%;
+color: #FFF}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+
+.myself {
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+font-size: 1em;
+}
+
+.hobbies {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+font-size: 1em;
+}
+
+.skills-list{
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 7%;
+padding-right: 7%;
+}
+
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}}
+
+/* Tablet Screens */
+@media only screen and (min-width : 768px)
+{
 h1{
 text-align: center;
 margin-top: 5%;
@@ -49,7 +176,11 @@ color: #FFF;
 color: #FFF;
 list-style: none;
 text-align: center;
-margin-top: 3%
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 7%;
+padding-right: 7%;
 }
 
 .skills-list li {
@@ -58,3 +189,126 @@ text-align: center;
 padding: 10px;
 font-weight: bold;
 }
+}
+
+/* Medium Monitor Screens */
+@media only screen and (min-width : 992px) 
+{
+h1{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+h2 {
+text-align: center;
+margin-top: 5%;
+color: #FFF}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+
+.myself {
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.hobbies {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.skills-list{
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 7%;
+padding-right: 7%;
+}
+
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
+
+}
+
+/* Large Monitor Screens */
+@media only screen and (min-width : 1200px)
+{
+h1{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+h2 {
+text-align: center;
+margin-top: 5%;
+color: #FFF}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+
+.myself {
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.hobbies {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+
+.skills-list{
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+margin-left: 3%;
+margin-right: 3%;
+padding-left: 7%;
+padding-right: 7%;
+}
+
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
+} /* End Large Screen media (1200px+) */
+
+
+
