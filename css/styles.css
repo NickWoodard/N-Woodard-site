@@ -70,6 +70,11 @@ text-align: center;
 padding: 10px;
 font-weight: bold;
 }
+
+iframe {
+width: 250px;
+height: 250px;
+}
 }
 
 /* Phone Screens */
@@ -130,7 +135,13 @@ display: inline-block;
 text-align: center;
 padding: 10px;
 font-weight: bold;
-}}
+}
+
+iframe {
+width: 450px;
+height: 450px;
+}
+}
 
 /* Tablet Screens */
 @media only screen and (min-width : 768px)
@@ -188,6 +199,12 @@ display: inline-block;
 text-align: center;
 padding: 10px;
 font-weight: bold;
+}
+
+/*Update!*/
+iframe {
+width: 600px;
+height: 450px;
 }
 }
 
@@ -308,6 +325,7 @@ text-align: center;
 padding: 10px;
 font-weight: bold;
 }
+
 } /* End Large Screen media (1200px+) */
 
 
