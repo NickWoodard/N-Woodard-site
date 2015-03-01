@@ -7,8 +7,8 @@ background-repeat: repeat;
 background-color: #19356C;
 }
 
-body {
-font-family: calibi, sans-serif;
+body, textarea, input {
+font-family: Calibri, sans-serif;
 }
 
 /* Tiny screens */
