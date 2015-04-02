@@ -1,5 +1,4 @@
-/* Global Styles */
-/* BG colors and font choices. */
+/*{ Global Styles */
 html {
 background: linear-gradient(rgba(0, 0, 4, .4), rgba(0, 0, 4, .4));
 background-size: 100% auto;
@@ -8,22 +7,40 @@ background-color: #19356C;
 }
 
 body, textarea, input {
+padding-top: 5em;
 font-family: Calibri, sans-serif;
+background-color: #19356c;
+}
+
+h1, h2{
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+
+.AboutMe {
+background-color: #19356C;
+color: #FFF}
+
+
+/* Adds a small white border to the form boxes when clicked on (focused on) */
+.form-box:focus {
+border: 3px solid #FFF;
+}
+.submitButton:focus {
+border: 3px solid #FFF;
+}
+
+/* Placeholder basic CSS for list items.
+   Later, I'd like this to be a little bobbing animation. It's pretty ugly right now. */
+li:hover {
+background-color: #FFF;
+color: #000;
 }
 
 /* Tiny screens */
 @media only screen and (min-width: 200px)
 {
-h1{
-text-align: center;
-margin-top: 5%;
-color: #FFF;
-}
-
-h2 {
-text-align: center;
-margin-top: 5%;
-color: #FFF}
 
 img {
 display: block;
@@ -32,6 +49,8 @@ margin-top: 3%;
 width: 200px;
 height: 200px;
 }
+
+
 
 .myself {
 text-align: center;
@@ -71,25 +90,11 @@ padding: 10px;
 font-weight: bold;
 }
 
-iframe {
-width: 250px;
-height: 250px;
-}
 }
 
 /* Phone Screens */
 @media only screen and (min-width : 480px)
 {
-h1{
-text-align: center;
-margin-top: 5%;
-color: #FFF;
-}
-
-h2 {
-text-align: center;
-margin-top: 5%;
-color: #FFF}
 
 img {
 display: block;
@@ -137,25 +142,11 @@ padding: 10px;
 font-weight: bold;
 }
 
-iframe {
-width: 450px;
-height: 450px;
-}
 }
 
 /* Tablet Screens */
 @media only screen and (min-width : 768px)
 {
-h1{
-text-align: center;
-margin-top: 5%;
-color: #FFF;
-}
-
-h2 {
-text-align: center;
-margin-top: 5%;
-color: #FFF}
 
 img {
 display: block;
@@ -201,26 +192,11 @@ padding: 10px;
 font-weight: bold;
 }
 
-/*Update!*/
-iframe {
-width: 600px;
-height: 450px;
 }
-}
-
+/*
 /* Medium Monitor Screens */
 @media only screen and (min-width : 992px) 
 {
-h1{
-text-align: center;
-margin-top: 5%;
-color: #FFF;
-}
-
-h2 {
-text-align: center;
-margin-top: 5%;
-color: #FFF}
 
 img {
 display: block;
@@ -271,16 +247,6 @@ font-weight: bold;
 /* Large Monitor Screens */
 @media only screen and (min-width : 1200px)
 {
-h1{
-text-align: center;
-margin-top: 5%;
-color: #FFF;
-}
-
-h2 {
-text-align: center;
-margin-top: 5%;
-color: #FFF}
 
 img {
 display: block;
@@ -327,6 +293,5 @@ font-weight: bold;
 }
 
 } /* End Large Screen media (1200px+) */
-
-
+*/
 
