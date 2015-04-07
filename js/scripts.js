@@ -1,8 +1,8 @@
-function toggle(element) {
-	var e = document.getElementById(element);
-	if(e.style.display == "block") {
-		e.style.display = "none";
-	} else {
-		e.style.display = "block"
-	}
-};
+function callbackGreeting(callback) {
+ alert('Hello! This is the first time I said hello!');
+ callback();
+}
+
+callbackGreeting (function() {
+ alert('This is the second time I said hello!');
+});
