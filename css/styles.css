@@ -22,10 +22,6 @@ color: #FFF;
 background-color: #19356C;
 color: #FFF}
 
-.contactform{
-display: block;
-}
-
 /* Adds a small white border to the form boxes when clicked on (focused on) */
 .form-box:focus {
 border: 3px solid #FFF;
